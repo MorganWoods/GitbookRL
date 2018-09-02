@@ -2,7 +2,7 @@
 description: 读书笔记
 ---
 
-# 周志华 ML
+# ZhouZhiHua ML
 
 ## 第一章 绪论
 
