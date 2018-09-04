@@ -18,11 +18,11 @@ description: missions and ideas
 * 关于奖励稀疏的问题, 最终奖励过于稀疏不利于训练. 参考这个网页的解释[http://swarma.blog.caixin.com/archives/164137](http://swarma.blog.caixin.com/archives/164137)也可以归类于 reward shaping 类别下.
 * VIN 应用到连续空间可行么?
 * 使用增强网络建造神经网络结构.
-* using imageNet to finish some work?
+* using imageNet to finish some work? 关于图像方面是一个重点,还有卷积神经网络.
 * GAN and RL cooperation?
 * Transfer learning&gt;? GAN should be useful for it.
 * 关于贪婪算法,也有提升空间, oleksii 论文说的 Upper confidence bound 算法.
-* 在同一个任务中用不同的网络干不同的事,分开干.
+* 在同一个任务中用不同的网络干不同的事,分开干. 一个主网络负责调用各个分网络,各个分网络自己干自己的事. 这也是分级网络的逻辑.
 
 ## Upcoming tasks
 
