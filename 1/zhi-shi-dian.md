@@ -1,10 +1,10 @@
 ---
-description: 'RL 知识点笔记,需要汇总笔记上的 ; 需要重新整理'
+description: Basic theory
 ---
 
 # Basics
 
-## Actor-Critc 网络
+## Actor-Critc 
 
 这是 on policy 的. 运行流程: A 根据 state 选出一个 action ➡️ C 根据 state 和 action 对 A 的表现打分 ➡️ A根据 C 的打分,调整自己的策略\(网络参数\) ➡️ C 根据系统的 reward 和 C 的 target 调整自己打分策略\(网络参数\)一开始 A 与 C 都是随机的,但是由于 reward 的存在,二者策略越来越准; A 调整参数根据 C 的打分,迎合 C.
 
