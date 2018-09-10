@@ -6,7 +6,7 @@
   * [Basics](1/zhi-shi-dian.md)
   * [technique](1/yi-xie-ji-shu.md)
   * [formula](1/chang-yong-gong-shi.md)
-  * [webmark](1/wang-zhan-shou-cang.md)
+  * [Bookmark](1/wang-zhan-shou-cang.md)
 * [Paper Note📝](2/README.md)
   * [Reviews](2/zong-shu-lei.md)
   * [Advantage tech](2/advantage-ji-shu.md)

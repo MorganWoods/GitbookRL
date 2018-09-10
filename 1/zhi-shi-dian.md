@@ -1,8 +1,26 @@
 ---
-description: Basic theory
+description: RL Basic theory
 ---
 
 # Basics
+
+## Basic terms
+
+* **Value function V**: measure how good it is to be in a particular states.
+* **Q function**: measure the value of choosing a particular action when in this state. Q: action-value
+* **Advantage function**: subtract the value of the state from the Q function to obtain a relative measure of the importance of each action.
+* DQN 's important factors are **Target network** and **Experience replay**.
+* During the learning period, randomly select samples from the experience to build the Loss function.
+* $$\theta$$ is weights and bias \(parameters\) of neural networks.
+* The **hyperparameters** means the pre-set values like learning rate , etc. cannot learn from training period.
+* **DL** is a field of representation learning; **ML** is the necessary condition of DL; DL is a special form of ML; ML is learning algorithm from raw data; Learning: From experience E, task T, performance measure;
+* Some typical ML's tasks: Classification, Regression, Transcription\(recognize character from image\), Machine translation, Structured output, Anomaly detection\(异常检测\), Imputation of missing value, Denoising, Density estimation or probability mass function estimation.
+* When face a high dimensional data, ML may not work since the **curse of dimensionality**.  Some DL's models: Deep feedforward network, MLPs, feedforward neural networks.
+* The goal of MLP is learning θ from training data. It has hidden layers and output layer. Actually it is similar like a set of f chains. The length of f chains called **depth**, the number of units called **width**.
+* To the output layer, choosing a proper **cost function** is a necessity condition. The main object of DL is minimizing the Loss function. For avoiding **overfitting**, adding a **weight decay** term in **regularization** of cost function. It's a coefficient in front of regularization term.
+* **AI** is a enormous and general concept, ML is a method to realize the AI world. A big problem of AI is **Feature extraction**, DL can solve is well, DL is a technique of ML.
+* **Model free**: do not know anything of env before, waiting for feedback to implement next action. **Model based**: understand env, can predict the future results of actions.
+* **Policy-based**: choosing actions according to policy. e.g. PG, DDPG. **Value-based**: Choosing the action with the highest value. e.g. Q-learning, sarsa.
 
 ## Actor-Critc 
 

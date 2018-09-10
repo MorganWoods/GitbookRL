@@ -1,5 +1,5 @@
 ---
-description: RL 的一些技术
+description: Techniques
 ---
 
 # technique

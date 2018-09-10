@@ -2,7 +2,7 @@
 description: some good websites!
 ---
 
-# webmark
+# Bookmark
 
 * 使用 DDPG,keras 玩 TORCS 赛车游戏,有源码 [https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html)
 * 两个检索论文与相对应的 code 的网页
