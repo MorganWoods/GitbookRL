@@ -1,4 +1,8 @@
-# Content of GitbookRL
+---
+description: Notebook of Reinforcement Learning
+---
 
-please see the [Summary](https://github.com/MorganWoods/GitbookRL/blob/master/SUMMARY.md)
+# Initial page
+
+[Table of content](https://github.com/MorganWoods/GitbookRL/blob/master/SUMMARY.md)
 
