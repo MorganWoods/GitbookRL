@@ -7,6 +7,8 @@
   * [technique](1/yi-xie-ji-shu.md)
   * [formula](1/chang-yong-gong-shi.md)
   * [Bookmark](1/wang-zhan-shou-cang.md)
+  * [Q&A](1/q-and-a.md)
+  * [Others](1/others.md)
 * [Paper Note📝](2/README.md)
   * [Reviews](2/zong-shu-lei.md)
   * [Advantage tech](2/advantage-ji-shu.md)
