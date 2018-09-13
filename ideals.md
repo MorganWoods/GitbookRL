@@ -23,6 +23,7 @@ description: missions and ideas
 * Transfer learning&gt;? GAN should be useful for it.
 * 关于贪婪算法,也有提升空间, oleksii 论文说的 Upper confidence bound 算法.
 * 在同一个任务中用不同的网络干不同的事,分开干. 一个主网络负责调用各个分网络,各个分网络自己干自己的事. 这也是分级网络的逻辑.
+* Dual attention technique.
 
 ## Upcoming tasks
 
@@ -36,6 +37,10 @@ description: missions and ideas
 * ~~查找会议与期刊.~~
 * OneNote 笔记迁移到 Github; 论文公式与绘图迁移到 RLKnowledge 文件中.个人笔记也弄到 github 上来. 无纸化.
 * 下次读文章时候把参考文献记录下来,分类.
+
+## Potential tasks
+
+* 增强英文讲课,演讲能力.
 
 ## 
 
