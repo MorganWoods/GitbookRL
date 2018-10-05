@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [Ideals💡](ideals.md)
+* [Tasks & ideas🔅](ideals.md)
 * [RL Knowledge Points📒](1/README.md)
   * [Basics](1/zhi-shi-dian.md)
   * [technique](1/yi-xie-ji-shu.md)
