@@ -27,15 +27,14 @@ description: "Tasks and ideas \U0001F4A1"
 
 ### ➡ Journal\_2018
 
-Oct.5 - Oct.15 finnish rewriting
-
-.
+Oct.5 - Oct.15 finish rewriting  
+Oct.15-Oct.30. finish submit.
 
 ### ➡ Conference\_2019.4 
 
 ## All ideals 🌀
 
-> 目前关注 reward 机制. lstm 机制;  
+> 目前关注 reward 机制. Lstm 机制;  
 > 为了找工作:需要关注 大数据, 图像视频处理, deep learning. 推荐算法, 这一类. 单独的增强学习可能优势不足.
 
 * Gridworld 改成机器人类似的形式,把终点信息加入 reward 中,加强其泛化能力;
