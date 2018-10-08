@@ -35,11 +35,11 @@ Oct.15-Oct.30. finish submit.
 ## All ideals 🌀
 
 > 目前关注 reward 机制. Lstm 机制;  
-> 为了找工作:需要关注 大数据, 图像视频处理, deep learning. 推荐算法, 这一类. 单独的增强学习可能优势不足.
+> 为了找工作:需要关注 大数据, 图像视频处理, deep learning. 推荐算法, 这一类. 单独的增强学习可能优势不足.  
+> 下面按照类别划分出来.
 
 * Gridworld 改成机器人类似的形式,把终点信息加入 reward 中,加强其泛化能力;
 * 类似 NAF 那样把两个网络完成的事弄成一个网络完成,看可行不可行;
-* 对 reward 的机制下手, 让他得分惩罚更加合理有利于收敛. reward shaping
 * gazebo 环境的开发
 * [https://www.youtube.com/watch?v=EaY5QiZwSP4](https://www.youtube.com/watch?v=EaY5QiZwSP4) 一个无人车模拟,可以尝试
 * 研究 LSTM 算法
@@ -52,6 +52,11 @@ Oct.15-Oct.30. finish submit.
 * 关于贪婪算法,也有提升空间, oleksii 论文说的 Upper confidence bound 算法.
 * 在同一个任务中用不同的网络干不同的事,分开干. 一个主网络负责调用各个分网络,各个分网络自己干自己的事. 这也是分级网络的逻辑.
 * Dual attention technique.
+
+### ➡ experience replay
+
+* 对 reward 的机制下手, 让他得分惩罚更加合理有利于收敛. reward shaping
+* PER 那个, 以后注意一下, 经历分出优先级使用.
 
 
 
