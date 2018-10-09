@@ -31,5 +31,5 @@
 * [Book📚](book/README.md)
   * [ZhouZhiHua ML](book/zhou-zhi-hua-ml.md)
   * [Python ML](book/python-ml.md)
-* [Thesis reviews🎓](thesis-reviews.md)
+* [My reviews🎓](thesis-reviews.md)
 

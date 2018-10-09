@@ -22,7 +22,7 @@ description: Paper summary
 
 #### DRL paper list
 
-{% embed data="{\"url\":\"http://www.voidcn.com/article/p-rlbfnjbt-gc.html \",\"type\":\"link\",\"title\":\"深度增强学习方向论文整理 - 程序园\",\"description\":\"本文为知乎专栏作者Alex-zhai原创，已授权CSDN转载。 责编：王艺 一. 开山鼻祖DQN Playing Atari with Deep Reinforcement Learning，V. Mnih et al., NIPS Workshop, 2013. Human-level control through deep reinforcement learning, V. Mnih et\",\"icon\":{\"type\":\"icon\",\"url\":\"http://static02.voidcn.com/voidcn/favicon.ico\",\"aspectRatio\":0}}" %}
+{% embed url="http://www.voidcn.com/article/p-rlbfnjbt-gc.html " %}
 
 这个网页列出增强学习文章与分类列表,很有参考价值,分类详细.
 
@@ -44,7 +44,7 @@ description: Paper summary
 
 改变DQN使之能够应用在连续控制上面：Continuous Deep Q-Learning with Model-based Acceleration
 
-{% embed data="{\"url\":\"https://github.com/junhyukoh/deep-reinforcement-learning-papers/blob/master/README.md\#continuous-control\",\"type\":\"link\",\"title\":\"junhyukoh/deep-reinforcement-learning-papers\",\"description\":\"A list of recent papers regarding deep reinforcement learning - junhyukoh/deep-reinforcement-learning-papers\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/8590999?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1},\"caption\":\"all DRL\"}" %}
+{% embed url="https://github.com/junhyukoh/deep-reinforcement-learning-papers/blob/master/README.md\#continuous-control" caption="all DRL" %}
 
  
 
@@ -52,13 +52,13 @@ description: Paper summary
 
 #### GAN paperlist
 
-{% embed data="{\"url\":\"https://github.com/zhangqianhui/AdversarialNetsPapers   \",\"type\":\"link\",\"title\":\"zhangqianhui/AdversarialNetsPapers\",\"description\":\"The classical paper list with code about generative adversarial nets  - zhangqianhui/AdversarialNetsPapers\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars2.githubusercontent.com/u/7938702?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/zhangqianhui/AdversarialNetsPapers   " %}
 
-{% embed data="{\"url\":\"https://github.com/hindupuravinash/the-gan-zoo\",\"type\":\"link\",\"title\":\"hindupuravinash/the-gan-zoo\",\"description\":\"A list of all named GANs! Contribute to hindupuravinash/the-gan-zoo development by creating an account on GitHub.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars0.githubusercontent.com/u/3033246?s=400&v=4\",\"width\":400,\"height\":400,\"aspectRatio\":1}}" %}
+{% embed url="https://github.com/hindupuravinash/the-gan-zoo" %}
 
 #### 
 
 #### Multi-agent
 
-{% embed data="{\"url\":\"http://lantaoyu.com/posts/2017/06/marl-papers/\",\"type\":\"link\",\"title\":\"Multi-Agent Reinforcement Learning Paper Lists\",\"description\":\"Multi-Agent Reinforcement Learning \(MARL\) is a very interesting research area, which has strong connections with single-agent RL, multi-agent systems, game theory, evolutionary computation and optimization theory.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://lantaoyu.github.io/images/android-chrome-192x192.png?v=M44lzPylqQ\",\"width\":192,\"height\":192,\"aspectRatio\":1}}" %}
+{% embed url="http://lantaoyu.com/posts/2017/06/marl-papers/" %}
 
