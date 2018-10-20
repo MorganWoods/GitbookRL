@@ -4,10 +4,16 @@ description: continuous control method
 
 # Continuous control
 
-### Actor critic 算法记录
+### Actor critic 
 
 * 策略函数作为 actor 选择动作;价值函数作为 critic 对策略函数进行评估;根据 critic 的输出更新价值网络和策略网络.
 * The proof that AC methods converge was shown in a brilliant Masters thesis by Konda
+
+### Actor-Critic algorithms
+
+> Konda, mit.
+
+These are two-time-scale algorithms in which the critic uses TD learning with a linear approximation architecture and the actor is updated in an approximate gradient direction based on information provided by the critic.
 
 ### Asynchronous Methods for Deep Reinforcement Learning \(A3C\)
 
@@ -100,6 +106,7 @@ description: continuous control method
 > Richard S.Sutton, 1999
 
 * 证明了 PG 可以收敛到全局最优点. 优化函数是 RL 必要的环节, 但是标准的方法优化价值函数和决定策略从理论上难以证明.这篇文章中我们探索了一个可供替代的方法,策略可以明确地用他自己的函数近似者表明, 独立于价值函数,并且根据关于策略参数的梯度期望来更新.我们主要的结果表明梯度可以写成适应于近似动作值和利益方程的形式.使用这个结果,我们首次证明使用任意的微分近似方程的策略迭代可以收敛到全局最优策略.
+* the value-function approach has worked well in many applications, but has several limitations. first, it is oriented toward finding deterministic policies, whereas the optimal policy is often stochastic, selecting different actions with specific probabilities. Second, an arbitrarily small change in the estimated value of an action can cause it to be, or not be, selected.
 
 ### Q-prop: Sample-Efficent Policy Gradient With An Off-Policy Critic \(Q-Prop\)
 
@@ -118,7 +125,7 @@ description: continuous control method
 
 * 在策略梯度方法中还有很多有意思的课题，比如相容函数法，自然梯度法等等。但Shulman在博士论文中已证明，这些方法其实都是TRPO弱化的特例，说这些是再次强调TRPO的强大之处。策略梯度算法的硬伤就在更新步长 ​，当步长不合适时，更新的参数所对应的策略是一个更不好的策略，当利用这个更不好的策略进行采样学习时，再次更新的参数会更差，因此很容易导致越学越差，最后崩溃。所以，合适的步长对于强化学习非常关键。所谓合适的步长是指当策略更新后，回报函数的值不能更差。如何选择这个步长？或者说，如何找到新的策略使得新的回报函数的值单调增，或单调不减。这是TRPO要解决的问题。
 
-  ![](../.gitbook/assets/image%20%288%29.png)
+  ![](../.gitbook/assets/image%20%289%29.png)
 
   值函数 ![](https://www.zhihu.com/equation?tex=V%28s%29)可以理解为在该状态下所有可能动作所对应的动作值函数乘以采取该动作的概率的和。更通俗的讲，值函数 ![](https://www.zhihu.com/equation?tex=V%28s%29)是该状态下所有动作值函数关于动作概率的平均值。而动作值函数 ![](https://www.zhihu.com/equation?tex=Q%28s%2Ca%29)是单个动作所对应的值函数，​$$Q-V$$​能评价当前动作值函数相对于平均值的大小。所以，这里的优势指的是动作值函数相比于当前状态的值函数的优势。如果优势函数大于零，则说明该动作比平均动作好，如果优势函数小于零，则说明当前动作还不如平均动作好。
 

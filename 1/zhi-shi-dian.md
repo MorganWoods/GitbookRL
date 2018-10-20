@@ -6,9 +6,10 @@ description: RL Basic theory
 
 ## Basic terms
 
-* **Value function V**: measure how good it is to be in a particular states.
-* **Q function**: measure the value of choosing a particular action when in this state. Q: action-value
-* **Advantage function**: subtract the value of the state from the Q function to obtain a relative measure of the importance of each action.
+* **Three functions**
+  * **Value function V**: measure how good it is to be in a particular states.; total reward from s
+  * **Q function**: measure the value of choosing a particular action when in this state. Q: action-value; total reward from taking a in s
+  * **Advantage function**: subtract the value of the state from the Q function to obtain a relative measure of the importance of each action.;how much better a is.
 * DQN 's important factors are **Target network** and **Experience replay**.
 * During the learning period, randomly select samples from the experience to build the Loss function.
 * $$\theta$$ is weights and bias \(parameters\) of neural networks.

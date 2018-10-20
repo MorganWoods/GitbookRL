@@ -21,7 +21,7 @@ description: "Tasks and ideas \U0001F4A1"
 
 ### ➡ Potential tasks
 
-* 增强英文讲课,演讲能力.
+* enhance conference talking ability.
 
 ## Planning 🌀
 
