@@ -1,12 +1,12 @@
 ---
-description: continuous control method
+description: 'continuous control methods,'
 ---
 
 # Continuous control
 
-### Actor critic 
+## Actor-critic series🌀
 
-* 策略函数作为 actor 选择动作;价值函数作为 critic 对策略函数进行评估;根据 critic 的输出更新价值网络和策略网络.
+* Policy network select actions as an actor, value-based critic estimate the behavior of policy. update policy parameters according to critic's output.
 * The proof that AC methods converge was shown in a brilliant Masters thesis by Konda
 
 ### Actor-Critic algorithms
@@ -50,7 +50,7 @@ These are two-time-scale algorithms in which the critic uses TD learning with a 
 
 ### Continuous Control with Deep Reinforcement Learning \(DDPG\) 
 
-> 2016年ICLR, 作者: Timothy P.Lillicrap
+> 2016年ICLR, Author: Timothy P.Lillicrap
 
 * DDPG 算法从这里提出. AC 算法加 DQN 算法. 是 AC 的升级版.
 
@@ -68,9 +68,13 @@ These are two-time-scale algorithms in which the critic uses TD learning with a 
 
 > 2014, David Silver ,DeepMind
 
-* DDPG 算法在这个 DPG 基础上完成.
-* 本文证明了 policy Gradient: 策略梯度,其想法是沿着使目标函数\(累积奖赏函数$$J(\pi_\theta))$$变大的方向调整策略的参数.
+* DDPG base on DPG, which is deterministic actor-critic method.
+* This paper prove policy gradient. adjust parameters to maximum object $$J(\pi_\theta))$$ function.
 * Equivalence Between Policy Gradients and Soft Q-Learning
+* The deterministic policy gradient is relative to stochastic PG.
+* However, we show that the deterministic policy gradient does indeed exist, and further-more it has a simple model-free form that simply follows the gradient of the action-value function.
+* In the stochastic case, the policy gradient integrates over both state and action spaces, whereas in the deterministic case it only integrates over the state space.
+* To ensure that our deterministic policy gradient algorithms continue to explore satisfactorily, we introduce an off-policy learning algorithm. The basic idea is to choose actions according to a stochastic behaviour policy \(to ensure adequate exploration\), but to learn about a deterministic target policy \(exploiting the efficiency of the deterministic policy gradient\).
 
 ### High-Dimensional Continuous Control Using Generalized Advantage Estimation \(GAE\)
 
@@ -149,4 +153,16 @@ These are two-time-scale algorithms in which the critic uses TD learning with a 
 * MDPs 有些不确定性, 有个 Robust MDPs 解决这个问题. 但是它带来了过分谨慎的结果 ; 本文集中学习一个 soft robust policy 通过吸收 soft robustness 和 online ac 算法 ; 本文的贡献: 1, 一个 soft-robust 衍生的 目标函数 为了 PG. 2. SRAC 算法使用随机优化来学习 . 3. 收敛证明. 4. 实验,展示了其效率.
 * PG 方法一般的目标函数时最大化平均 reward function.
 * soft-robust 目标函数…
+
+
+
+## Naf
+
+## Naf
+
+## Naf
+
+## Naf
+
+## Naf
 
