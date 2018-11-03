@@ -1,5 +1,5 @@
 ---
-description: "Tasks and ideas \U0001F4A1"
+description: "Tasks and ideas \uD83D\uDCA1"
 ---
 
 # Tasks & ideas🔅
