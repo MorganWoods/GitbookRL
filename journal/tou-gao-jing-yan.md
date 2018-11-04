@@ -4,7 +4,13 @@ description: record experience
 
 # experience
 
+## About writing
 
+What tense should be used in a research paper?  
+The tense you would use largely depends on the subject of your sentence.   
+As a general rule: Any statements of general fact should be written using the present tense. Any discussion about prior research should be explained using the **past tense**.
+
+## About submission
 
 > 投稿经验记录
 >
