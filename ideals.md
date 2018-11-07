@@ -64,6 +64,43 @@ May,2019, have a journal letter.
 * 对 reward 的机制下手, 让他得分惩罚更加合理有利于收敛. reward shaping
 * PER 那个, 以后注意一下, 经历分出优先级使用.
 
+### ➡ RL designs network??
+
+## General Note 🌀
+
+### ➡ RL in real applications
+
+> 7, Nov, 2018
+
+Now I realise a problem of RL, that is it cannot work without an environment, which is a built model for agent to interact. Next step, I will focus on some real applications of RL such as computer vision, image processing, etc. I should dig in.
+
+> [https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12](https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12)  
+> ⬇️
+
+RL is a very general framework for learning sequential decision making tasks. This article aims to investigate the breadth and depth of RL applications in real world.
+
+* Resources management in computer clusters Paper"resource management with DRL" shows using RL automatically learn to allocate and schedule computer resources to waiting jobs, with the objective to minimize the average job slowdown. **State space** was formulated as the current resources allocation and the resources profile of jobs. For **action space**, they used a trick to allow the agent to choose more than one action at each time step. **Reward was** the sum of \(-1/duration of the job\) over all the jobs in the system. Then they combined REINFORCE algorithm and baseline value to calculate the policy gradients and find the best policy parameters that give the probability distribution of actions to minimize the objective. Click here to view the code on [Github](https://github.com/hongzimao/deeprm).
+* Traffic light control In the paper “Reinforcement learning-based multi-agent system for network traffic signal control”[\[3\]](http://web.eecs.utk.edu/~itamar/Papers/IET_ITS_2010.pdf), researchers tried to design a traffic light controller to solve the congestion problem. Tested only on simulated environment though, their methods showed superior results than traditional methods and shed a light on the potential uses of multi-agent RL in designing traffic system.
+* Robotics There are tremendous work on applying RL in Robotics. Readers are referred to [\[10\]](https://www.ias.informatik.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf) for a survey of RL in Robotics. In particular, [\[11\]](https://arxiv.org/pdf/1504.00702.pdf) trained a robot to learn policies to map raw video images to robot’s actions. The RGB images were fed to a CNN and outputs were the motor torques. The RL component was the guided policy search to generate training data that came from its own state distribution.
+* Web system configuration There are more than 100 configurable parameters in a web system and the process of tuning the parameters requires a skilled operator and numerous trail-and-error tests. The paper “A Reinforcement Learning Approach to Online Web System Auto-configuration” [\[5\]](http://ranger.uta.edu/~jrao/papers/ICDCS09.pdf) showed the first attempt in the domain on how to do autonomic reconfiguration of parameters in multi-tier web systems in VM-based dynamic environments.
+* **Personalized Recommendations ⭐️**  Guanjie et al. have applied RL in news recommendation system in a paper titled “DRN: A Deep Reinforcement Learning Framework for News Recommendation” to combat the problems [\[1\]](http://www.personal.psu.edu/~gjz5038/paper/www2018_reinforceRec/www2018_reinforceRec.pdf).
+* **Bidding and Advertising ⭐️ \(this could be applied to IT service\)**
+
+  Researchers from Alibaba Group published a paper “Real-Time Bidding with Multi-Agent Reinforcement Learningin Display Advertising” [\[6\]](https://arxiv.org/pdf/1802.09756.pdf) and claimed that their distributed cluster-based multi-agent bidding solution \(DCMAB\) has achieved promising results and thus they plan to conduct a live test in Taobao platform.
+
+* Deep learning CNN, RNN, GAN.
+* There are several things needed before RL can be applied: ⭐️
+
+  *  You may want to check if your problem has some of the following characteristics before deciding to use RL: a\) trial-and-error \(can be learned to do better by receiving feedback from the environment\); b\)delayed rewards; c\)can be modeled as MDP; d\)your problem is a control problem.
+  * A simulated environment: Lots of iterations are needed before a RL algorithm to work.
+  * MDP: You world need to formulate your problem into a MDP. You need to design the state space, action space, reward function and so on. Your agent will do what it is rewarded to do under the constraints. You may not get the results you want if you design the things differently.
+
+### ➡ shortcoming
+
+> [https://www.alexirpan.com/2018/02/14/rl-hard.html](https://www.alexirpan.com/2018/02/14/rl-hard.html)     ⬇️  
+> shortcomings of RL
+
+  
 
 
 

@@ -89,6 +89,8 @@ Now he is a professor and Ph.D. tutor in College of Automation, HEU. He is a lea
 
 ### ➡Cover letter
 
+> now I use it as the comments to the journal office.
+
 Dear Sir/Madam,  
 We would like to submit my manuscript titled 'The Actor-Dueling-Critic Method for Reinforcement Learning' to your journal.  
 The study presents a novel approach based on actor-critic network which can operate well in continuous control RL tasks. It has better Q value estimator and addresses the unstable performance of normal actor-critic based methods.  
