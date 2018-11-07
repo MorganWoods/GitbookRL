@@ -7,7 +7,7 @@ description: about publication
 > CCF rank: [https://www.ccf.org.cn/xspj/rgzn/](https://www.ccf.org.cn/xspj/rgzn/)  
 > LetPub list: [http://www.letpub.com.cn/index.php?page=journalapp&view=search](http://www.letpub.com.cn/index.php?page=journalapp&view=search)
 
-## Summary
+## Summary🌀
 
 > From Letpup. Sci journals relate to CS;OA is open access.
 
@@ -36,9 +36,27 @@ Name, IF, period, Journals number per year, iter, Publication
 
 * IEEE transactions on neural networks and learning systems.\(TNNLS\) 7.9, Bimonthly, 256, 1/2,IEEE, 影响因子虚高.
 
+### ➡ Neurocomputing Log
+
+using compressed archive \(zip, tar, gz\)  
+**LaTeX instructions:** Build a PDF of your manuscript source files and attach it with item type 'Manuscript'. Attach all items you would like to submit that are not contained in this file.  
+At revision, you will be asked to submit your source files. Please see the LaTeX instructions at [www.elsevier.com/latex](http://www.elsevier.com/latex/) for more details.
+
+**To upload your submission as single archive**, scroll down and select any item from the drop down list, **Browse** to locate your archive and click **Attach This File**. A list of the files in the archive will appear at the bottom of the screen. Click **AutoComplete**above this list to automatically populate the Item and Description fields.
+
+**NOTE:**When submitting Highlights, please submit a separate Highlights file. Please name this file "Highlights." For more information, see the [Guidelines for Submitting Highlights](http://www.elsevier.com/highlights).
+
+manuscript, highlight, figures . Three parts individually upload.
+
+1. \*.tex 和 \*.bib 都以Manuscript项（Item）提交 （abstract.tex除外）  
+2. abstract.tex以Abstract项（Item）提交  
+3. \*.eps以Figure项（Item）提交  
+4. biographies.pdf以Biography of the author\(s\)项提交  
+5. \*.jpg以Photo of the author\(s\)项提交
 
 
-## Publishing knowledge
+
+## Publishing knowledge🌀
 
 corresponding author 通讯作者.  
 Highlights files 是主要成果和结论和亮点.方便快速了解内容.通常包裹3-5点,每一条字符不超过85,介绍文中最重要的东西. where applicable : 在适用的情况下  
@@ -49,7 +67,7 @@ competing interests statement: 利益冲突声明, 文章末尾有类似的句�
 do not just refer to 'the text'. Any subsection may be given a brief heading. Each heading should appear on its own separate line.  
 Introduction : State the objectives of the work and provide an adequate background, avoiding a detailed literature survey or a summary of the results.
 
-## Basic knowledge about quality
+## Basic knowledge about the quality🌀
 
 中科院 JCR\(Journal Citation Reports\) 分区,对期刊划分 13个大类,176个小类;一本期刊只可属于一个大类学科，但是一本期刊却可以属于多个不同的小类学科.
 
@@ -57,7 +75,29 @@ Introduction : State the objectives of the work and provide an adequate backgrou
 
 A **Journal Impact Factor** of 1.0 means that, on average, the articles published one or two years ago have been cited one time. A **Journal Impact Factor**of 2.5 means that, on average, the articles published one or two years ago have been cited two and a half times.
 
-## HEU requirement for graduation
+## Some Information🌀
+
+### ➡authors
+
+Yanbing Gao 
+
+gaoyanbin@hrbeu.edu.cn
+
+was born in 1963. He received the  B.S. degree and M. S. degree  from Harbin Engineering University \(HEU\) in 1985 and 1987 respectively.
+
+Now he is a professor and Ph.D. tutor in College of Automation, HEU. He is a leader in Institute of Inertial Navigation and M &C Technology in HEU, responsible and involved in a variety of research and production of the compass gyro navigator. His research interests are micro-signal processing and noise suppression, navigation in formation conversion, PINS and SINS techniques, and the applications of novel inertial devices and high-precision navigation systems.
+
+### ➡Cover letter
+
+Dear Sir/Madam,  
+We would like to submit my manuscript titled 'The Actor-Dueling-Critic Method for Reinforcement Learning' to your journal.  
+The study presents a novel approach based on actor-critic network which can operate well in continuous control RL tasks. It has better Q value estimator and addresses the unstable performance of normal actor-critic based methods.  
+It indicates that our approach is efficient to learn a policy during the training period.  
+I hope the manuscript will turn out to be valuable as so far not many studies presenting a similar method  has been published.  
+Yours Faithfully,  
+Menghao
+
+## HEU requirement for graduation🌀
 
 > 论文,会议,专利.
 
