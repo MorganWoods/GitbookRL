@@ -2,7 +2,7 @@
 description: "Tasks and ideas \uD83D\uDCA1"
 ---
 
-# Tasks & ideas🔅
+# Tasks, ideas, thoughts🔅
 
 ## Tasks 🌀
 
@@ -19,6 +19,7 @@ description: "Tasks and ideas \uD83D\uDCA1"
 * moving OneNote to Gitbook; Moving formulas and figures in paper to RLKnowledge folder. Additional, your paper note.
 * recording and classifying references.
 * Writing CV; interview.
+* finding real application direction of RL.
 
 ### ➡ Potential tasks
 
@@ -31,7 +32,8 @@ description: "Tasks and ideas \uD83D\uDCA1"
 Oct.5 - Oct.15 finish rewriting  
 Oct.15-Oct.30. finish submit.
 
-Nov.6-Nov.9, submitting.
+Nov.6-Nov.9, submitting.  
+Nov.7: submitted
 
 ### ➡ Conference\_2019.4 
 
@@ -66,7 +68,9 @@ May,2019, have a journal letter.
 
 ### ➡ RL designs network??
 
-## General Note 🌀
+### ➡ Recommender system??
+
+## General Thoughts 🌀
 
 ### ➡ RL in real applications
 
@@ -95,10 +99,64 @@ RL is a very general framework for learning sequential decision making tasks. Th
   * A simulated environment: Lots of iterations are needed before a RL algorithm to work.
   * MDP: You world need to formulate your problem into a MDP. You need to design the state space, action space, reward function and so on. Your agent will do what it is rewarded to do under the constraints. You may not get the results you want if you design the things differently.
 
+> [https://www.oreilly.com/ideas/practical-applications-of-reinforcement-learning-in-industry](https://www.oreilly.com/ideas/practical-applications-of-reinforcement-learning-in-industry)  
+> ⬇️ Nov.8.2018
+
+Generally speaking, the goal in RL is learning how to map observations and measurements to a set of actions while trying to maximize some long-term reward.  
+ RL poses a different set of challenges from traditional [online learning](https://en.wikipedia.org/wiki/Online_machine_learning), in that you often [have some combination](https://www.safaribooksonline.com/library/view/oreilly-artificial-intelligence/9781491985250/video314916.html?utm_source=oreilly&utm_medium=newsite&utm_campaign=20171129_ben_lorica_reinforcement_learning_in_industry_body_text_have_some_combination_link) of delayed feedback, sparse rewards, and \(most importantly\) the agents in question are often able to affect the environments with which they interact.  
+Deep learning as a machine learning technique is beginning to be used by companies on a variety of machine learning applications. RL hasn’t quite found its way into many companies, and my goal is to sketch out some of the areas where applications are appearing.
+
+**Industrial automation**   
+Bonsai company recently listed the following criteria for when RL might be useful to consider:
+
+* You’re using simulations because your system or process is too complex \(or too physically hazardous\) for teaching machines through trial and error.
+* You’re dealing with large state spaces.
+* You’re seeking to augment human analysts and domain experts by optimizing operational efficiency and providing decision support.
+
+**Data science and machine learning**  
+ Several research groups have proposed using RL to make the process of designing neural network architectures more accessible \([MetaQNN from MIT](https://arxiv.org/abs/1611.02167) and [Net2Net operations](https://arxiv.org/abs/1707.04873)\). [AutoML from Google](https://research.googleblog.com/2017/05/using-machine-learning-to-explore.html) uses RL to produce state-of-the-art machine-generated neural network architectures for computer vision and language modeling.
+
+Looking beyond tools that simplify the creation of machine learning models, there are some who think that RL will prove useful in assisting software engineers write computer programs.
+
+**Education and training**  
+Online platforms are beginning to experiment with using machine learning to create personalized experiences. Several researchers are investigating the use of RL and other machine learning methods in [tutoring systems and personalized learning](http://pact.cs.cmu.edu/pubs/New%20potentials%20for%20ITS-source.pdf). The use of RL can lead to training systems that provide custom instruction and materials tuned to the needs of individual students. [A group of researchers is developing RL algorithms and statistical methods](https://www.technologyreview.com/s/603504/playtimes-over/) that require less data for use in future tutoring systems.
+
+#### Health and medicine
+
+#### Text, speech, and dialog systems ⭐️
+
+Companies collect a lot of text, and good tools that can help unlock unstructured text will find users. Earlier this year, AI researchers at SalesForce used [deep RL for abstractive text summarization](https://www.salesforce.com/products/einstein/ai-research/tl-dr-reinforced-model-abstractive-summarization/) \(a technique for automatically generating summaries from text based on content “abstracted” from some original text document\). This could be an area where RL-based tools gain new users, as many companies are in need of better text mining solutions.
+
+[RL is also being used to allow ](https://www.microsoft.com/en-us/research/publication/towards-end-end-reinforcement-learning-dialogue-agents-information-access/)[dialog systems](https://www.microsoft.com/en-us/research/publication/towards-end-end-reinforcement-learning-dialogue-agents-information-access/) \(i.e., [chatbots](https://www.oreilly.com/ideas/bots-what-you-need-to-know)\) to learn from user interactions and thus help them improve over time \(many enterprise chatbots currently rely on decision trees\). This is an [active area of research](https://arxiv.org/abs/1709.02349v1) and VC investments: see [Semantic Machines](http://www.semanticmachines.com/technology/) and [VocalIQ](https://www.technologyreview.com/s/603613/siri-may-get-smarter-by-learning-from-its-mistakes/)—acquired by Apple.
+
+#### Media and advertising ⭐️
+
+Microsoft [recently described](https://arxiv.org/abs/1606.03966) an internal system called Decision Service that has since been made [available on Azure](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-decision-service/custom-decision-service-overview). [This paper](https://arxiv.org/abs/1606.03966)describes applications of Decision Service to content recommendation and advertising. Decision Service more generally targets machine learning products that suffer from failure modes including “feedback loops and bias, distributed data collection, changes in the environment, and weak monitoring and debugging.”
+
+Other applications of RL include [cross-channel marketing optimization](https://dl.acm.org/citation.cfm?id=1016912) and [real time bidding systems](https://arxiv.org/abs/1701.02490) for online display advertising.
+
+#### Finance
+
 ### ➡ shortcoming
 
 > [https://www.alexirpan.com/2018/02/14/rl-hard.html](https://www.alexirpan.com/2018/02/14/rl-hard.html)     ⬇️  
 > shortcomings of RL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## NaN
 
   
 
