@@ -29,6 +29,7 @@
 * [Conference🌊](conference/README.md)
   * [AAAI19](conference/aaai19.md)
 * [Book📚](book/README.md)
+  * [Machine Learning Yearning](book/machine-learning-yearning.md)
   * [ZhouZhiHua ML](book/zhou-zhi-hua-ml.md)
   * [Python ML](book/python-ml.md)
 * [My reviews🎓](thesis-reviews.md)
