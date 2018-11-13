@@ -12,7 +12,7 @@ description: Successor Representation 技术
 
 > occupancy 占有; appealing properties; distal 末端的; factorization 因式分解; bottleneck 瓶颈; diverse 不同的,多种多样的; sensitivity 敏感; infer 推断; Specifically 独有地, ; dot product 点乘; representation 代理,代表; adapt 适应; intrinsic 内在的固有的, extrinsic 外在的,非本质的;
 
-![&#x4E0B;&#x9762;&#x662F;SR&#x6A21;&#x5757;,&#x5DE6;&#x9762;&#x662F; CNN, &#x4E0A;&#x9762;&#x662F;&#x7ACB;&#x5373; reward](../.gitbook/assets/image%20%287%29.png)
+![&#x4E0B;&#x9762;&#x662F;SR&#x6A21;&#x5757;,&#x5DE6;&#x9762;&#x662F; CNN, &#x4E0A;&#x9762;&#x662F;&#x7ACB;&#x5373; reward](../../.gitbook/assets/image%20%287%29.png)
 
 1. 《Curiosity-driven Exploration by Self-supervised Prediction》 by UCB. ICML 2017. 《Learning to Act by Predicting the Future》 by IntelLab. ICLR 2017 \(oral\).《Deep Successor Reinforcement Learning》 by MIT & Harvard. NIPS 2016 workshop.这三篇都是解决 reward 稀疏的问题, 先收藏保留. 有的思想是奖励分成过程奖励与结果奖励.
 2. 学习价值方程有 model free 和 base 的算法, 这里有个新方法, successor representations\(SR\).本文用SR 方法求解 RL. 思路是将 value function 拆成两部分,一个是通过预测任务学习型到的表达\(reward predictor\),另一个是表达紧密相关激励函数reward shaping 对 RL 训练的好处,稳定性提高,收敛加快\(successor map\).

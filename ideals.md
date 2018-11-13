@@ -60,6 +60,7 @@ May,2019, have a journal letter.
 * Hierarchical reinforcement learning.
 * Dual attention technique.
 * Researching the practical directions with RL method.
+* From now on, I should expand my vision to DL and ML. and also further practice python programs.
 
 ### ➡ experience replay
 

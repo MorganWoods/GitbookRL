@@ -1,5 +1,5 @@
 ---
-description: Notebook of Reinforcement Learning
+description: 'Notebook of ML, DL, and RL'
 ---
 
 # Initial page

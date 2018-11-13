@@ -25,7 +25,7 @@ description: '每个标题用#标题; 按首字母排序;'
 
 
 
-![9 - attention RNN](../.gitbook/assets/image%20%283%29.png)
+![9 - attention RNN](../../.gitbook/assets/image%20%283%29.png)
 
 ## Long Short-Term Memory
 
@@ -33,7 +33,7 @@ description: '每个标题用#标题; 按首字母排序;'
 > 1997  
 > [https://blog.csdn.net/baidu\_17806763/article/details/60957295](https://blog.csdn.net/baidu_17806763/article/details/60957295)   结合这个分析记录
 
-![LSTM memory block](../.gitbook/assets/image%20%281%29.png)
+![LSTM memory block](../../.gitbook/assets/image%20%281%29.png)
 
 1. 通过 recurrent BP 方式学习存储随时间间隔变化的信息费时间.本文引入基于梯度的方法 LSTM.有效解决标签比较长的分类任务; LSTM 现在基本用在 RNN 中代替隐层单元,能够起到很好的长时间记忆效果.
 2. RNN 共享权重,权重修正速度慢,只有短期记忆.卷积 bp through time 或 real time recurrent learning. 误差信号会随着反馈网络趋向于: 爆炸,消失,引发权重摆动,或浪费大量时间.

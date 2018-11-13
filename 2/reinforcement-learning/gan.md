@@ -24,7 +24,7 @@ description: Generative Adversarial Nets
 5. Experiments: trains the nets on datasets: MNIST, Toronto Face Database TFD,
 6. pseudocode
 
-![](../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 
 GAN 的优点：  
 （以下部分摘自ian goodfellow 在Quora的问答）  

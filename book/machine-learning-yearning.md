@@ -28,6 +28,8 @@ Plateaus :  an area of fairly level high ground. This means its learning curve f
 
 Many other details such as neural network architecture are also important, and there has been much innovation here. But one of the more reliable ways to improve an algorithm's performance today is still to 1 train a bigger network and 2 get more data.
 
+## Setting up development and test sets
+
 #### 5 Your development and test sets
 
 Positive examples, negative examples, training and test sets.  
@@ -106,5 +108,9 @@ It is quite common to change dev/test sets or evaluation metrics during a projec
 
 #### 12 Takeaways: setting up development and test sets
 
+This section is some advices and summary of all previous sections. 
 
+## Basic Error Analysis
+
+#### 13 Build your first system quickly, then iterate
 

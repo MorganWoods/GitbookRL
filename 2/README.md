@@ -22,7 +22,7 @@ description: Paper summary
 
 #### DRL paper list
 
-{% embed url="http://www.voidcn.com/article/p-rlbfnjbt-gc.html " %}
+{% embed url="http://www.voidcn.com/article/p-rlbfnjbt-gc.html" %}
 
 这个网页列出增强学习文章与分类列表,很有参考价值,分类详细.
 
@@ -52,7 +52,7 @@ description: Paper summary
 
 #### GAN paperlist
 
-{% embed url="https://github.com/zhangqianhui/AdversarialNetsPapers   " %}
+{% embed url="https://github.com/zhangqianhui/AdversarialNetsPapers" %}
 
 {% embed url="https://github.com/hindupuravinash/the-gan-zoo" %}
 
