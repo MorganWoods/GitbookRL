@@ -98,5 +98,13 @@ F1 score:  The [F1 Score](http://en.wikipedia.org/wiki/F1_score) is the 2\*\(\(p
 
 #### 11 When to change dev/test sets and metrics
 
+you can evaluate your system regularly on the test set. but do not use the test set to make any decisions regarding the algorithm, including whether to roll back to the previous week's system.
+
+> pornographic: constituting or resembling pornography; obscene.
+
+It is quite common to change dev/test sets or evaluation metrics during a project. Having an initial dev/test set and metric helps you iterate quickly. If you ever find that the dev/test sets or metric are no longer pointing your tea in the right direction, it's not a big deal, Just change them and make sure your team knows about the new direction.
+
+#### 12 Takeaways: setting up development and test sets
+
 
 
