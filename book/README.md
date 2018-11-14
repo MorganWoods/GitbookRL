@@ -1,6 +1,6 @@
 ---
-description: Notebook
+description: Notebook and projects
 ---
 
-# Book📚
+# Book📚Code
 
