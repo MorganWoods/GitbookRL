@@ -24,9 +24,23 @@ Many applications of deep learning use **feedforward neural network architecture
 
 For smaller data sets, unsupervised pre-training helps to prevent overfitting, leading to significantly better generalization when the number of labelled examples is small. Once deep learning had been rehabilitated, it turned out that the pre-training stage was only needed for small data sets.
 
+#### **Convolutional neural networks**
+
 **Convolutional neural networks \(ConvNets\)** are designed to process data that come in the form of multiple arrays. **There are four key ideas behind ConvNets** that take advantage of the properties of natural signals: **local connections, shared weights, pooling and the use of many layers**. Although the role of the convolutional layer is to detect local conjunctions of features from the previous layer, the role of the pooling layer is to merge semantically similar features into one. Since the early 2000s, convnets have been applied with great success to the **detection, segmentation and recognition** of objects and regions in image. **From image to text, CNN+RNN**. 
 
+A **deep-learning architecture** is a multilayer stack of simple modules, most of which compute non-linear input-output mappings. Each module in the stack transforms its input to increase both the selectivity and the invariance of the representation.
 
+#### Image understanding with deep convolutional networks
+
+#### Distributed representations and language processing
+
+#### The future of deep learning
+
+Unsupervised learning - It is an far more important in the longer term even it is not widely used today. Creatures in this world are learning largely by unsupervised.
+
+Human vision - We expect much of the future progress in vision to come from systems that are trained end-to-end and combine ConvNets with RNNs that use RL to decide where to look.
+
+Natural Language understanding - We expect systems that use RNNs to understand sentences or whole documents.
 
 
 
