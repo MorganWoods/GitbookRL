@@ -25,7 +25,7 @@ description: '每个标题用#标题; 按首字母排序;'
 
 
 
-![9 - attention RNN](../../.gitbook/assets/image%20%283%29.png)
+![9 - attention RNN](../../.gitbook/assets/image%20%284%29.png)
 
 ## Long Short-Term Memory
 

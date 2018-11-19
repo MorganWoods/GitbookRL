@@ -20,3 +20,9 @@ $$\frac{\partial y}{\partial x}$$ - Partial derivative of y w.r.t. x
 
 $$\nabla_{x}y$$ - Gradient of y w.r.t x
 
+$$\int_{s}{f(x)}dx$$ - Definite integral w.r.t x over the set S
+
+Others - independent, conditionally independent given c, probability distribution, discrete variable, continuous variable
+
+
+

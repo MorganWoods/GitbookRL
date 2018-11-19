@@ -72,7 +72,7 @@ A: how much better a is.
 
 #### In the gradient function:  The better the value estimation is, the lower the variance. 
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 #### batch actor-critic algorithm:
 

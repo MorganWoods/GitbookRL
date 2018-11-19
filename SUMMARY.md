@@ -37,6 +37,7 @@
 * [Course](course/README.md)
   * [AIHelsinki academia kaggle](course/aihelsinki-academia-kaggle.md)
 * [Book📚Code](book/README.md)
+  * [DeepLearning Ian](book/deeplearning-ian.md)
   * [Kaggle](book/kaggle.md)
   * [Machine Learning Yearning](book/machine-learning-yearning.md)
   * [ZhouZhiHua ML](book/zhou-zhi-hua-ml.md)
