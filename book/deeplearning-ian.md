@@ -109,6 +109,24 @@ In **regression** tasks, program predicts numerical value given some input.
 
 The ability to perform well on previously unobserved inputs is called **generalization**. Training error, generalization error, test error. 
 
+weight decay, 
+
+#### 5.4 Estimators, Bias and Variance
+
+The field of statistics gives us many tools that can be used to achieve the ML goal of solving a task not only on the training set but also to generalize.
+
+**Point estimation**. Function Estimation, Bias, 
+
+#### 5.5 Maximum Likelihood Estimation 
+
+{最大似然估计}
+
+#### 5.7 Supervised Learning Algorithms
+
+**Logistic regression** is a generalized linear model where the outcome is a two-level categorical variable. 
+
+**Principal components analysis**, 
+
 ## Part 2: Deep Networks: Modern Practices
 
 
