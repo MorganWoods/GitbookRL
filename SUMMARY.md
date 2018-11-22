@@ -14,6 +14,7 @@
     * [ActorCritic](1/rl/others.md)
 * [Paper Note📝](2/README.md)
   * [DEEP LEARNING](2/deep-learning/README.md)
+    * [Techniques](2/deep-learning/techniques.md)
     * [Vision](2/deep-learning/vision.md)
   * [MACHINE LEARNING](2/machine-learning.md)
   * [REINFORCEMENT LEARNING](2/reinforcement-learning/README.md)
